@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/cardview"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="4.0dp"
+                                    android:layout_marginLeft="8.0dp"
+                                    android:layout_marginRight="8.0dp"
+                                    android:layout_marginTop="4.0dp"
+                                    card_view:cardCornerRadius="2dp"
+
+    >
+
+    <LinearLayout android:id="@+id/layout_item"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:background="#37474F"
+        >
+
+        <LinearLayout android:id="@+id/layout_item_desc"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:padding="4dp"
+                      android:weightSum="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="18dp"
+                          android:textStyle="bold"
+                          android:fontFamily="casual"
+                          android:textColor="@android:color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="200.0dp"
+           />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:weightSum="7">
+
+            <LinearLayout android:id="@+id/layout_action1"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+                <ImageView
+                           android:id="@+id/add_edit"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/pencil"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/layout_action"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+                <ImageView
+                    android:id="@+id/showHide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pictureremove"/>
+                </LinearLayout>
+
+            <LinearLayout android:id="@+id/layout_action2"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+                <ImageView
+                           android:id="@+id/copy"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/copy"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout android:id="@+id/layout_action3"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+                <ImageView
+                    android:id="@+id/favourit"
+                         android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/heart"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/layout_action4"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/sharing"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/layout_action5"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/messenger"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/layout_action6"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                          android:weightSum="2">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/facebook"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

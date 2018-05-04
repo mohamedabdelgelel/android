@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "338895715308",
+    "firebase_url": "https://qasseda-ec310.firebaseio.com",
+    "project_id": "qasseda-ec310",
+    "storage_bucket": "qasseda-ec310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338895715308:android:b3e67ebfa017d395",
+        "android_client_info": {
+          "package_name": "com.example.omarmohammedraafat.qasseda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338895715308-n4llksapnjihrcj62ibr0gtedrein46o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omarmohammedraafat.qasseda",
+            "certificate_hash": "50f7aadf3e112805163fecb85bc2ee43471d99a4"
+          }
+        },
+        {
+          "client_id": "338895715308-mdhlr56ujiumuoq2nnpdv0vea47qe4fv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omarmohammedraafat.qasseda",
+            "certificate_hash": "b470b262bb6a798cef340769370837b4fe384996"
+          }
+        },
+        {
+          "client_id": "338895715308-efj647idapjeulaoi1mslus601mfkeu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrQl9XNH8v1rlT2erGX9atxYk6_EwKwS4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338895715308-efj647idapjeulaoi1mslus601mfkeu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

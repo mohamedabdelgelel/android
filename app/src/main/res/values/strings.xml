@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">قصائد و أشعار</string>
+
+    <string name="navigation_drawer_open">انتقل من هنا</string>
+    <string name="navigation_drawer_close">العوده للقائمه الرئيسيه</string>
+
+    <!--Menu item texts -->
+    <string name="action_settings">الأعدادات</string>
+    <string name="action_search">البحث</string>
+    <string name="action_cart">المفضل</string>
+    <string name="action_notifications">الأشعارات</string>
+    <string name="action_depart">الأقسام</string>
+
+    <string name="item_1">شعر رومانسى وشوق</string>
+    <string name="item_2">شعر صداقه</string>
+    <string name="item_3">شعر عتاب وحزن</string>
+    <string name="item_4">شعر خيانه وفراق</string>
+    <string name="item_5">أسلامى</string>
+    <string name="item_6">شعر مدح ومناسبات</string>
+    <string name="item_7">صور رمزيه</string>
+
+    <string name="option1">مساعده</string>
+    <string name="option2">بحث</string>
+    <string name="option3">المفضله</string>
+
+    <string name="my_profile">ملفى الشخصى</string>
+    <string name="my_rewards">الجوائز</string>
+    <string name="my_orders">القصائد المميزه</string>
+    <string name="my_cart">القصائد المحفوظه</string>
+    <string name="my_wishlist">مطلباتى</string>
+    <string name="my_account">حسابى الشخصى</string>
+
+    <string name="help_support">دعم فنى</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="terms_conditions">شروط واحكام</string>
+    <string name="help_center">مركز الدعم</string>
+
+    <string name="search_hint">ابحث عن اى شعر او قصيده</string>
+
+
+    <!--Intro slider texts -->
+    <string name="title_activity_welcome">الشاشه لرئيسيه</string>
+    <string name="next">التالى</string>
+    <string name="skip">مرر</string>
+    <string name="start"> أهلا بك</string>
+
+    <string name="slide_1_title"> شعر رومانسي </string>
+    <string name="slide_1_desc"> كل ماهو مميز من اجل العشاق
+    </string>
+
+    <string name="slide_2_title"> شعر أسلامى </string>
+    <string name="slide_2_desc">مالي معَ اللهِ فيِ الدارينِ منْ سببٍ إلاَّ الشهادة َ أخفيها وأبديها</string>
+
+    <string name="slide_3_title"> شعر مدح ومناسبات</string>
+    <string name="slide_3_desc">(زفات ، تهنئه ، الهدايا، بطاقات دعوه ،دفتر الزوار )</string>
+
+    <string name="slide_4_title"> شعر عتاب وحزن </string>
+    <string name="slide_4_desc">تفرّق الظروف الأحبّة رغماً عنهم، فتهيّج مشاعر الشّوق</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome
+        slider -> clear data
+    </string>
+    <string name="text_details1">
+        لكلّ مقام مقال
+و أنا اليوم معكم
+في مقام الشعر
+في برج من العاج عالِ لا يطال
+
+******
+    </string>
+    <string name="text_details2">
+        و أعبد ذاك الوحي
+المختبئ في قلبي
+أعبد هاتيك القوافي المنسيّة
+
+    أنا قلب وصل القمّة ثمّ هوى
+فأنا دعاء اختزل
+قصتهما
+بسبحة شعرية
+تتوضأ بالحب للصلاة لهما
+    </string>
+    <string name="play_again">Play Again</string>
+    <string name="defualt_counter">5</string>
+    <string name="title_activity_nav">قصائد واشعار</string>
+    <string name="title_activity_navigation">قصائد واشعار</string>
+
+</resources>

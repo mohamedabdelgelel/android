@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="@string/option1" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/option2" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/option3" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="الادوات" />
+    </group>
+
+    <item android:title="الاتصال">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="تسجيل دخول" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="تسجيل خروج" />
+            <item
+                android:id="@+id/nav_ADMIN"
+                android:title="لوحة التحكم " />
+        </menu>
+    </item>
+
+</menu>
